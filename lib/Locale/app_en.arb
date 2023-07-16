@@ -1,0 +1,23 @@
+{
+  "login": "تسجيل دخول",
+  "email": "Email",
+  "password": "Password",
+  "welcome": "Welcome back...",
+  "main": "Main",
+  "name": "Name",
+  "phone": "Phone",
+  "save": "Save",
+  "update": "Update",
+  "cancel": "Cancel",
+  "done": "Done",
+  "send": "Send",
+  "message": "Message",
+  "ok": "OK",
+  "enter_message": "...أدخل نص رسالتك هنا",
+  "no_data": "لا يوجد بيانات",
+  "sure": "تأكيد",
+  "exit": "رجوع",
+  "select_file": "ارفاق ملف",
+
+  "test": ""
+}
