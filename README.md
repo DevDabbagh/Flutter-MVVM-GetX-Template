@@ -25,7 +25,7 @@ MVVM is an effective architecture that allows for modular, testable and maintain
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/YourUsername/FlutterMVVMWithGetX.git
+    git clone https://github.com/DevDabbagh/Flutter-MVVM-GetX-Template.git
     ```
 2. **Navigate to the project directory:**
     ```bash
