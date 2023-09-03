@@ -1,4 +1,4 @@
-# Flutter MVVM with GetX ( Mobile Point Of View )
+# Clear Flutter MVVM with GetX Template 
 
 ## Overview
 
