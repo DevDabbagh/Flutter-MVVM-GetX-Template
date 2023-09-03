@@ -1,4 +1,4 @@
-# Flutter MVVM with GetX
+# Flutter MVVM with GetX ( Mobile Point Of View )
 
 ## Overview
 
