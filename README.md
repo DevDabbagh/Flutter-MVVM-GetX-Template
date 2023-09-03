@@ -1,16 +1,4 @@
-# Workout
+Overview
+This project showcases how to build a Flutter application using the MVVM (Model-View-ViewModel) architectural pattern, facilitated by GetX for state management and navigation.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+MVVM is an effective architecture that allows for modular, testable and maintainable code. The GetX library simplifies working with MVVM by providing utilities for routing, dependency injection, and state management.
