@@ -47,11 +47,9 @@ lib/
 ├── main.dart
 ├── app/
 │   ├── routes.dart
-│   ├── views/
-│   │   ├── home_view.dart
-│   │   └── ...
-│   ├── viewmodels/
+│   ├── module/
 │   │   ├── home_viewmodel.dart
+│   │   ├── home_view.dart
 │   │   └── ...
 │   └── models/
 │       ├── user.dart
