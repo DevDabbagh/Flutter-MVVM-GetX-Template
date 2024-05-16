@@ -38,16 +38,16 @@ dependencies:
   art_sweetalert: ^0.0.5
   cached_network_image: ^3.2.0
   carousel_slider: ^4.0.0
-  file_picker: ^4.5.1
+  file_picker: any
   flutter_svg: ^0.22.0
   flutter_screenutil: ^5.5.3+2
   get: ^4.6.1
   shared_preferences: ^2.0.15
   permission_handler: ^10.2.0
   timeago: ^3.2.2
-  logger: ^1.1.0
-  intl: ^0.17.0
-  lottie: ^1.4.1
+  logger: ^2.0.2+1
+#  intl: ^0.18.0
+  lottie: ^3.0.0
 
 
 
@@ -59,7 +59,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   build_runner: ^2.0.0
-  objectbox_generator: any
+#  objectbox_generator: any
   mockito: ^5.3.2
 
 

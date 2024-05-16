@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 import '../../Api/Repo/Currency/CurrencyRepo.dart';
 import '../../Model/TCurrency.dart';
 
-class ListController extends  FullLifeCycleController with FullLifeCycleMixin {
+class ListController extends  FullLifeCycleController  {
   List<TCurrency> listCurrencies = [];
   
   ScrollController scrollController = ScrollController();
@@ -37,12 +37,12 @@ class ListController extends  FullLifeCycleController with FullLifeCycleMixin {
     update();
   }
 
-
   @override
   void onInit() {
+    super.onInit();
     getCurrencies();
     addLoadMoreTrigger();
-    super.onInit();
+
   }
 
   addLoadMoreTrigger()  {
@@ -53,23 +53,16 @@ class ListController extends  FullLifeCycleController with FullLifeCycleMixin {
       }
     });
   }
-
-
   onRefresh(){
     listCurrencies.clear();
-    page_number=1 ;
+    page_number=1;
     stopLoadMore =false;
     getCurrencies();
-
-
   }
-
-
   bool stopLoadMore =false;
 
   void loadMore() async {
     if(stopLoadMore) return;
-
 
     List<TCurrency> loadMoreList=[];
     page_number += 1;
@@ -90,26 +83,6 @@ class ListController extends  FullLifeCycleController with FullLifeCycleMixin {
 
     update();
 
-  }
-
-  @override
-  void onDetached() {
-    // TODO: implement onDetached
-  }
-
-  @override
-  void onInactive() {
-    // TODO: implement onInactive
-  }
-
-  @override
-  void onPaused() {
-    // TODO: implement onPaused
-  }
-
-  @override
-  void onResumed() {
-    // TODO: implement onResumed
   }
 
 
